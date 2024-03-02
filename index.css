@@ -1,0 +1,62 @@
+body {
+background: radial-gradient( lightslategrey, black);
+height: 705px;
+margin: 0;
+}
+
+#header {
+/* border: 2px solid brown; */
+text-align: center;
+font-size: 400%;
+padding-top: 10px;
+padding-bottom: 10px;
+letter-spacing: 7px;
+background: linear-gradient(to right, #00ffff, lightgreen,#FF02FF);
+}
+
+.btnControls{
+font-size: 250%;
+border-radius: 50px;
+border: 0px;
+background-color: transparent;
+box-shadow: 5px 5px 5px #FF02FF;
+}
+
+.box{ animation: rotate 5s infinite;}
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    100% { transform: rotate(360deg); }
+}
+
+.box1{ animation: pulse 2s infinite;}
+@keyframes pulse {
+    0%, 100% {transform: scale(1);}
+    50% { transform: scale(1.2); }
+}
+
+#title{
+    letter-spacing: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 240%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.reproductor{
+    letter-spacing: 25px;
+border-radius: 80px;
+margin-left: 35%;
+margin-top: 3%;
+width: 30%;
+height: 75%;
+background: linear-gradient(40deg, lightslategray, lightpink,lightyellow,lightsalmon);
+display: inline-block;
+text-align: center;
+}
+
+#iconImg{
+margin-top: 0px;
+width: 40%;
+border-radius: 60%;
+}
+

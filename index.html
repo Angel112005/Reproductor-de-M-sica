@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Reproductor De Música</title>
+</head>
+<body>
+    <header id="header"> MI &nbsp;REPRODUCTOR &nbsp;DE &nbsp;MÚSICA </header>
+
+    <div class="reproductor">
+        <h2 id="title">CANCIONES</h2>        
+        <img src="/imagenes/logo.jpg" alt="iconoMusica" class="box" id="iconImg">
+        <br> <br>  
+        <audio id="audioPlayer" controls></audio>
+        <br> <br>
+        <button id="play" class="btnControls box1" >🔛</button>
+        <br> <br>
+        <button id="anterior" class="btnControls box1">🔙</button>
+        <button id="playPause" class="btnControls box1">⏸️</button>
+        <button id="siguiente" class="btnControls box1">🔜</button>
+    </div>
+
+    
+    <script type="module" src="./controllers/index.js"></script>
+</body>
+</html>
