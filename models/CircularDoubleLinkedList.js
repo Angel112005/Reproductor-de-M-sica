@@ -3,13 +3,13 @@ import { Node } from "./Node.js";
 export class CircularDoubleLinkedList {
   constructor() {
     this.current = null;
-    this.size = 0; // Tamaño de la lista
+    this.size = 0; 
   }
 
   agregarCancion(cancion) {
     const nuevoNodo = new Node(cancion);
     if (!this.current) {
-      nuevoNodo.next = nuevoNodo; // El próximo y el anterior del primer nodo apuntan a sí mismo
+      nuevoNodo.next = nuevoNodo;
       nuevoNodo.prev = nuevoNodo;
       this.current = nuevoNodo;
     } else {
